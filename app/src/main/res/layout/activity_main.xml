@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alorma.colorslume.MainActivity"
+    >
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="120dp"
+      android:gravity="center"
+      android:textSize="48sp"
+      android:textStyle="bold"
+      tools:text="#FF0009"
+      android:id="@+id/colorTextView"
+      />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/sliderTextLabel"
+      android:layout_margin="8dp"
+      android:gravity="center_horizontal"
+      android:text="Lumen value: 128"
+      />
+
+  <SeekBar
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:max="255"
+      android:layout_margin="8dp"
+      android:progress="128"
+      android:id="@+id/sliderLumenValue"
+      />
+
+  <com.jrummyapps.android.colorpicker.ColorPickerView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/colorPickerView"
+      />
+
+</LinearLayout>
