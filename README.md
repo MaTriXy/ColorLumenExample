@@ -1,6 +1,6 @@
 # Color Lumen example
 
-Did you need to change the color of text depending on a background color? Or maybe just a color?
+Did you need to change the color of text depending on a background image? Or maybe just a color?
 
 This sample app will help you to choice the perfect  values for your `lumen` algorithm.
 
